@@ -1,0 +1,45 @@
+{
+  "name": "load-balancing-proxy",
+  "version": "0.0.1",
+  "description": "A Proxy server with load balancing",
+  "main": "main.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node dist/main.js --production",
+    "start:watch": "nodemon main.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/namansukhwani/load-balancer-proxy.git"
+  },
+  "author": "Naman Sukhwani",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/namansukhwani/load-balancer-proxy/issues"
+  },
+  "homepage": "https://github.com/namansukhwani/load-balancer-proxy#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "http-proxy": "^1.18.1",
+    "load-balancers": "^1.3.52"
+  },
+  "devDependencies": {
+    "@types/http-proxy": "^1.17.9",
+    "@types/node": "^18.11.5",
+    "@typescript-eslint/eslint-plugin": "^5.41.0",
+    "@typescript-eslint/parser": "^5.41.0",
+    "eslint": "^8.26.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-sonarjs": "^0.16.0",
+    "nodemon": "^2.0.20",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.7.1",
+    "rimraf": "^3.0.2",
+    "ts-node": "^10.9.1",
+    "tsconfig-paths": "^4.1.0",
+    "typescript": "^4.8.4"
+  }
+}
